@@ -1,0 +1,51 @@
+# Java 共通（ビルド成果物など）
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# パッケージ（通常は配布物なのでリポジトリには含めない）
+*.jar
+*.war
+*.ear
+
+# 一般的な出力ディレクトリ
+/out/
+/build/
+/target/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS / ユーティリティ
+.DS_Store
+Thumbs.db
+
