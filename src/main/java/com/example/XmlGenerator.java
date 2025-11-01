@@ -80,6 +80,8 @@ public class XmlGenerator {
             // 変換実行：DOM -> XMLファイル
             transformer.transform(source, result);
 
+            throw Exception("Test Exception");
+
             // 出力完了メッセージ
             System.out.println("Wrote XML to: " + outFile.getAbsolutePath());
         } catch (Exception e) {
